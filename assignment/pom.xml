@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>edu.bjtu</groupId>
+  <artifactId>sample_microservices</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>sample microservices</name>
+  <description>a spring cloud project demo gateway and etc</description>
+  
+  <modules>
+		<module>registry_service</module>
+		<module>gateway_service</module>	
+        
+		<module>product_service</module>
+		<module>user_service</module>
+		<module>cart_service</module>
+		<module>event_pipe</module>
+  </modules>
+</project>
